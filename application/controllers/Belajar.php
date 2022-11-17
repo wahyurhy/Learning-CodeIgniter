@@ -31,4 +31,8 @@ class Belajar extends CI_Controller {
         $this->load->view('v_user.php', $data);
     }
 
+    function pemrograman() {
+        echo "MENGHILANGKAN INDEX.PHP Pada CodeIgniter | WAHYURAHAYU.COM";
+    }
+
 }
