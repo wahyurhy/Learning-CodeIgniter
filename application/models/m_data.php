@@ -6,4 +6,8 @@ class M_data extends CI_Model {
         return $this->db->get('user');
     }
 
+    function tampil_data() {
+        return $this->db->get('user');
+    }
+
 }
