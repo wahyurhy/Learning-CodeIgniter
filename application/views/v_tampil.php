@@ -12,7 +12,7 @@
     </center>
 
     <center>
-        <?php echo anchor('crud/tambah', 'Tambah Data'); ?>
+        <?php echo anchor('crud/tambah/', 'Tambah Data'); ?>
     </center>
 
     <table style="margin: 20px auto;" border="1">

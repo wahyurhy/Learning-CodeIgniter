@@ -10,4 +10,8 @@ class M_data extends CI_Model {
         return $this->db->get('user');
     }
 
+    function input_data($data, $table) {
+        $this->db->insert($table, $data);
+    }
+
 }
